@@ -1,0 +1,19 @@
+body {font-family: sans-serif; padding: 2rem;} h1 {color:#2563eb;} footer {margin-top:2rem; border-top:1px solid #ccc; padding-top:1rem;}
+/* WhatsApp styles */
+.btn-whatsapp { border: none; background: #25D366; color: #fff; padding: 10px 14px; border-radius: 10px; text-decoration:none; font-weight:600; }
+.whatsapp-fab {
+  position: fixed; right: 18px; bottom: 18px;
+  width: 56px; height: 56px; display: grid; place-items: center;
+  background: #25D366; color: #fff; border-radius: 999px; text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  font-size: 24px;
+}
+.whatsapp-fab:hover { transform: translateY(-1px); }
+.wa-emoji { line-height: 1; }
+
+/* Gallery */
+.gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 8px; }
+.gal-img { width: 100%; height: auto; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 8px 24px rgba(2,6,23,0.06); }
+@media (min-width: 900px) {
+  .gallery { grid-template-columns: repeat(4, 1fr); }
+}

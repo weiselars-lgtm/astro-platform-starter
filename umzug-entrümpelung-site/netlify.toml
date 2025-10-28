@@ -1,0 +1,3 @@
+# Für statische Seite reichen Standardwerte; Redirects nicht nötig.
+[build]
+  publish = "."
